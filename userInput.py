@@ -2,7 +2,7 @@ import requests
 
 def createFile(val):
     with open(val, 'w') as file:
-        file.write(name+str(age))
+        file.write(val)
 
 def readWiki():
     url = "https://en.wikipedia.org/wiki/The_Red_Bottoms_Tour"
